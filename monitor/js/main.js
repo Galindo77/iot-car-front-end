@@ -4,7 +4,7 @@ let respuesta = document.getElementById("respuesta");
 function callApiRequest() {
     axios
         .get(
-            "http://localhost/iot-car-control/back-end/apis/setRegistro.php")
+            "http://18.218.248.114/back-end/apis/setRegistro.php")
         .then(function (response) {
             // manejar respuesta exitosa
             console.log(response);
