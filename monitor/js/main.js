@@ -4,7 +4,7 @@ let respuesta = document.getElementById("respuesta");
 function callApiRequest() {
     axios
         .get(
-            "http://18.218.248.114/back-end/apis/getRegistro.php")
+            "http://3.142.153.159/back-end/apis/getRegistro.php")
         .then(function (response) {
             // manejar respuesta exitosa
             console.log(response);
