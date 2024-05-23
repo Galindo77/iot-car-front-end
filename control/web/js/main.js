@@ -1,10 +1,10 @@
 //alert("WELCOME");
-let adelante=document.getElementById("adelante");
-let atras=document.getElementById("atras");
-let derecha=document.getElementById("derecha");
-let izquierda=document.getElementById("izquierda"); 
-let detener=document.getElementById("detener");
-let mensaje=document.getElementById("mensaje");
+let adelante=document.getElementById("Adelante");
+let atras=document.getElementById("Atras");
+let derecha=document.getElementById("Derecha");
+let izquierda=document.getElementById("Izquierda"); 
+let detener=document.getElementById("Detener");
+let mensaje=document.getElementById("Mensaje");
  function callApi(estatus){
     // Hacer una petición para un usuario con ID especifico
 axios.get('http://3.142.153.159/iot-car-control/back-end/apis/setRegistro.php?valorEstatus='+ estatus)
