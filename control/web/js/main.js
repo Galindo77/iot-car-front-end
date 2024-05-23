@@ -30,41 +30,41 @@ function CallApi(estatus)
 
 
 
-if (adelante) {
-  adelante.addEventListener("click", function () {
-      CallApi('F');
+if (Adelante) {
+  Adelante.addEventListener("click", function () {
+      CallApi('f');
   });
 } else {
   console.error("El elemento con el ID 'adelante' no existe.");
 }
 
-if (atras) {
-  atras.addEventListener("click", function () {
-      CallApi('B');
+if (Atras) {
+  Atras.addEventListener("click", function () {
+      CallApi('b');
   });
 } else {
   console.error("El elemento con el ID 'adelante' no existe.");
 }
 
-if (izquierda) {
-  izquierda.addEventListener("click", function () {
-      CallApi('L');
+if (Izquierda) {
+  Izquierda.addEventListener("click", function () {
+      CallApi('l');
   });
 } else {
   console.error("El elemento con el ID 'adelante' no existe.");
 }
 
-if (derecha) {
-  derecha.addEventListener("click", function () {
-      CallApi('R');
+if (Derecha) {
+  Derecha.addEventListener("click", function () {
+      CallApi('r');
   });
 } else {
   console.error("El elemento con el ID 'adelante' no existe.");
 }
 
-if (detener) {
-  detener.addEventListener("click", function () {
-      CallApi('S');
+if (Detener) {
+  Detener.addEventListener("click", function () {
+      CallApi('s');
   });
 } else {
   console.error("El elemento con el ID 'adelante' no existe.");
