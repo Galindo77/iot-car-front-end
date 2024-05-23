@@ -4,7 +4,7 @@ let atras=document.getElementById("Atras");
 let izquierda=document.getElementById("Izquierda");
 let derecha=document.getElementById("Derecha");
 let detener=document.getElementById("Detener");
-let mensaje=document.getElementById("Mensaje");
+let mensaje=document.getElementById("mensaje");
 
 
 // Función para llamar a la API
