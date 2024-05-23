@@ -13,8 +13,8 @@ function CallApiRequest(estatus)
     // manejar respuesta exitosa
     console.log(response);
     
-    let respuestaaServidor = response.data == 'L'?"Izquierda":response.data == 'B'?"Atras":response.data == 'R'?"Derecha":
-    response.data == 'F'?"Adelante": "Detener";
+    let respuestaaServidor = response.data == 'l'?"Izquierda":response.data == 'b'?"Atras":response.data == 'r'?"Derecha":
+    response.data == 'f'?"Adelante": "Detener";
     respuesta.innerHTML="Respuesta: " + respuestaaServidor;
     })
     .catch(function (error) {
